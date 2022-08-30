@@ -62,7 +62,7 @@ function isBasicLowerCase(text) {
 }
 
 /**
- * Toma una función como argumento, y si la entrada es válida, llama al
+ * Toma una función como argumento, y si la entrada es válida, llama a la
  * función y muestra el resultado.
  * @param action - una función que toma una cadena y devuelve una cadena
  */
@@ -112,7 +112,6 @@ function copyToClipboard() {
  * La función primero selecciona el texto en el área de texto, luego intenta copiarlo en
  * el portapapeles. Si falla, alerta al usuario.
  */
-
 function copyToClipboardOld() {
   try {
     var successful = document.execCommand("copy");

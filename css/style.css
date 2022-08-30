@@ -213,6 +213,20 @@ button:hover {
     margin-left: 30%;
 }
 
+@media screen and (max-width: 1024px) {
+    main,
+    .body_footer {
+    position: static;
+    height: 50px;
+    padding: 50px 0;
+    }
+
+    main {
+    align-items: flex-start;
+    min-height: 95vh;
+    }
+}
+
 @media screen and (max-width: 768px) {
     :root {
     --box-width: calc(100vw - 25px);
@@ -251,6 +265,10 @@ button:hover {
     margin: 32px 32px 0;
     height: 70%;
     padding-bottom: 0;
+    }
+    textarea{
+        padding-left: 25%;
+        font-size: 12px;
     }
 
     textarea,
