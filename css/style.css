@@ -67,7 +67,7 @@ main {
 /* Webpage Principal Content */
 .box {
     max-height: 1000px;
-    height: 90%;
+    height: 900px;
     display: flex;
     justify-content: space-around;
 }
