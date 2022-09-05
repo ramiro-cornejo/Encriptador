@@ -213,18 +213,33 @@ button:hover {
     margin-left: 30%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1440px) {
     main,
     .body_footer {
     position: static;
     height: 50px;
-    padding: 50px 0;
+    padding: 100px 0;
+}
     }
 
     main {
     align-items: flex-start;
     min-height: 95vh;
     }
+
+    .header-img {
+        width: 150px;
+    }
+
+    .output_section {
+        padding: 32px;
+        background: #fff;
+        border-radius: 24px;
+        box-shadow: 8px 16px 32px -8px rgb(0 0 0 / 20%);
+        width: 35vw;
+        max-width: 393px;
+        margin-right: 20px;
+        margin-top: 100px;
 }
 
 @media screen and (max-width: 768px) {
@@ -234,14 +249,13 @@ button:hover {
 
     main,
     .body_footer {
-    position: static;
     height: 100px;
-    padding: 12px 0;
+    padding: 50px 0;
     }
 
     main {
     align-items: flex-start;
-    min-height: 95vh;
+    min-height: 90vh;
     }
     .web_logo > img {
     margin-left: 32px;
@@ -300,6 +314,10 @@ button:hover {
 
     .image-empty-input {
     display: none;
+    }
+
+    p{
+        padding-left: 20px;
     }
 }
 
